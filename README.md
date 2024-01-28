@@ -68,7 +68,7 @@ Visit http://localhost:3000 in your browser to see the Kanban-Next application.
 
 ## Screenshots
 <img src="https://raw.github.com/sudeepkudari0/Kanban-Next/main/screenshots/web.png"/>
-
+<img src="https://raw.github.com/sudeepkudari0/Kanban-Next/main/screenshots/mobile.png"/>
 ## Contributing
 We welcome contributions to the Kanban-Next project! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
