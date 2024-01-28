@@ -4,15 +4,15 @@ import SideBar from "../sidebar"
 
 export const UserDashboard = () => {
     return (
-        <div className="flex w-full h-full">
-        <SideBar />
-        <div className="flex-grow flex flex-col bg-zinc-900 m-5 rounded-lg text-white">
-            <div className="flex flex-row flex-grow ">
-                <h2 className="text-xl font-bold m-4">Task Management / User</h2>
-                <CreateTask />
-            </div>
-            <AllTasks />
+        <div className="flex flex-col lg:flex-row w-full h-full">
+    <SideBar />
+    <div className="flex-grow flex flex-col bg-zinc-900 m-5 rounded-lg text-white">
+        <div className="flex flex-row flex-grow justify-between items-center lg:items-start">
+            <h2 className="text-lg w-[650px] font-bold m-4 lg:text-2xl lg:mb-0">Task Management / User</h2>
+            <CreateTask />
         </div>
+        <AllTasks />
     </div>
+</div>
     )
 } 

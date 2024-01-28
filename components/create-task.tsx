@@ -113,7 +113,8 @@ export const CreateTask = () => {
           <div className="assign grid grid-cols-4 items-end gap-4">
             <label htmlFor="priority" className="text-right">Priority</label>
             <select id="priority" className="col-span-3  border-[1px] h-[40px] w-auto  rounded-lg text-md 
-             bg-white text-center" value={selectedPriority} onChange={(e) => setSelectedPriority(e.target.value)} >
+             bg-white text-center" value={selectedPriority || -1} onChange={(e) => setSelectedPriority(e.target.value)} >
+              <option disabled value={-1}>Select Priority</option>
               <option className="text-black" value="Important">Important</option>
               <option className="text-black" value="All">All</option>
             </select>
