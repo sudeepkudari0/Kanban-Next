@@ -66,6 +66,9 @@ Visit http://localhost:3000 in your browser to see the Kanban-Next application.
 - Prisma ORM: Use Prisma for efficient and type-safe database access.
 - Clerk Authentication: Secure authentication powered by Clerk, with API keys configured for both frontend and backend.
 
+## Screenshots
+<img src="https://raw.github.com/sudeepkudari0/Kanban-Next/main/screenshots/web.png"/>
+
 ## Contributing
 We welcome contributions to the Kanban-Next project! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
