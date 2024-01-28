@@ -25,11 +25,13 @@ return (
                  bg-gray-500 h-auto sm:flex flex-col w-[350px] md:w-[250px] lg:w-[300px] xl:w-[300px]">
                     <p className="text-2xl font-bold">{task.title}</p>
                     <p className="text-md mb-8">{task.description}</p>
-                    {/* <p className="">Assigned To: {task.assignedToId}</p> */}
+                    <p className="">Assigned To: {task.assignedToId}</p>
                     <p className="text-sm">{task.duedate}</p>
                     {/* <p className="">Status: {task.status}</p> */}
                     <div className=" flex flex-row w-[80px] h-[25px] rounded-lg bg-red-400">
                     <p className="text-md pl-1 text-center">{task.priority}</p>
+                    </div>
+                    <div className="absolute bottom-0 right-0">
                     </div>
                 </div>
             ))}

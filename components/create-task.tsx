@@ -42,7 +42,7 @@ export const CreateTask = () => {
   const handleCreateTask = () => {
     console.log(newTaskName, newTaskDescription, selectedUserId, selectedPriority, dueDate);
     axios
-      .post("/api/tasks", {
+      .post("/api/createTask", {
         name: newTaskName,
         description: newTaskDescription,
         userId: selectedUserId,
