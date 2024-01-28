@@ -6,7 +6,6 @@ import { Inter } from "next/font/google";
 import { ClerkProvider } from "@clerk/nextjs";
 
 import "./globals.css";
-import SideBar from "@/components/sidebar";
 import { Provider } from "react-redux";
 import { store } from "@/components/store/store";
 
@@ -34,3 +33,5 @@ export default function RootLayout({
     </ClerkProvider>
   );
 }
+
+export const dynamic = 'force-dynamic'

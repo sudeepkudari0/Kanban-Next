@@ -1,7 +1,5 @@
 
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
-import { db } from "@/lib/db";
-import { currentUser } from "@clerk/nextjs";
 import axios from "axios";
 
 export const fetchAllUsers = createAsyncThunk("users/fetchAllUsers", async () => {
@@ -36,3 +34,5 @@ const userSlice =  createSlice({
 });
 
 export default userSlice.reducer;
+
+export const dynamic = 'force-dynamic';

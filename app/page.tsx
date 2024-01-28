@@ -1,6 +1,4 @@
-import { db } from "@/lib/db";
 import { Dashboard } from "../components/dashboard";
-import { currentUser, redirectToSignIn } from "@clerk/nextjs";
 
 export default async function Home() {
   
@@ -10,3 +8,5 @@ export default async function Home() {
     </div>
   );
 }
+
+export const dynamic = 'force-dynamic'

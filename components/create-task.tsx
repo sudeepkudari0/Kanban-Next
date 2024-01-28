@@ -133,3 +133,5 @@ export const CreateTask = () => {
     </div>
   )
 }
+
+export const dynamic = "force-dynamic"

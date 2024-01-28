@@ -42,3 +42,5 @@ export const Dashboard = async () => {
         </div>
     )
 }
+
+export const dynamic = "force-dynamic"

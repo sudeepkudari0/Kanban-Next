@@ -1,7 +1,5 @@
-import { Tasks } from "@/types";
 import { CreateTask } from "../create-task"
 import SideBar from "../sidebar"
-import { useState } from "react";
 import { AllTasks } from "../all-tasks";
 
 export const AdminDashboard = () => {
@@ -20,3 +18,5 @@ export const AdminDashboard = () => {
 
     )
 }
+
+

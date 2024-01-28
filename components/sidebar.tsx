@@ -54,3 +54,5 @@ const SideBar = () => {
 };
 
 export default SideBar;
+
+export const dynamic = "force-dynamic"

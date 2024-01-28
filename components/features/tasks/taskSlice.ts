@@ -28,3 +28,5 @@ const taskSlice = createSlice({
 })
 
 export default taskSlice.reducer;
+
+export const dynamic = 'force-dynamic';
