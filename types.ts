@@ -12,3 +12,9 @@ export type Tasks = {
     duedate: string,
     status: string
 }
+
+export type stateType = {
+    fullName: {
+        name: string
+    }
+}
