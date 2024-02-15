@@ -11,10 +11,12 @@ export async function POST(req: Request, res: Response){
                 id: userId
             },
             select: {
-                userId: true
+                userId: true,
+                name: true
             }
         });
         const assignedToId: string | undefined = getUserId?.userId;
+        const userName: string | undefined = getUserId?.name;
         // console.log(RuserId);
         const task: Tasks = await db.tasks.create({
             data: {
@@ -22,6 +24,7 @@ export async function POST(req: Request, res: Response){
                 description :description,
                 assignedToId: assignedToId as string,
                 priority,
+                userName: userName as string,
                 duedate: dueDate,
                 status: "OPEN"
             }

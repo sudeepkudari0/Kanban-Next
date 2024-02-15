@@ -1,6 +1,6 @@
 import { CreateTask } from "../create-task"
 import SideBar from "../sidebar"
-import { AllTasks } from "../all-tasks";
+import { AllTasksAdmin } from "./all-tasks-admin";
 
 export const AdminDashboard = () => {
 
@@ -12,7 +12,7 @@ export const AdminDashboard = () => {
             <h2 className="text-2xl lg:w-[500px] font-bold m-4 lg:mb-0">Task Management / Admin</h2>
             <CreateTask />
         </div>
-        <AllTasks />
+        <AllTasksAdmin />
     </div>
 </div>
 

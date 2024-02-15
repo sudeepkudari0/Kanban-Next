@@ -11,6 +11,7 @@ export type Tasks = {
     priority: string,
     duedate: string,
     status: string
+    userName: string
 }
 
 export type stateType = {

@@ -24,6 +24,7 @@ model Tasks {
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
   priority String
+  userName String
   duedate String
   status String
 }

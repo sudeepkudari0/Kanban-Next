@@ -1,7 +1,7 @@
-import { AllTasks } from "../all-tasks"
-import { CreateTask } from "../create-task"
-import SideBar from "../sidebar"
 
+import SideBar from "../sidebar"
+import { AllTasksUser } from "./all-tasks-user"
+import { SignOutButton } from "@clerk/nextjs"
 export const UserDashboard = () => {
     return (
         <div className="flex flex-col lg:flex-row w-full h-full">
@@ -10,7 +10,7 @@ export const UserDashboard = () => {
         <div className="flex flex-row flex-grow justify-between items-center lg:items-start">
             <h2 className="text-lg w-[650px] font-bold m-4 lg:text-2xl lg:mb-0">Task Management / User</h2>
         </div>
-        <AllTasks />
+        <AllTasksUser />
     </div>
 </div>
     )

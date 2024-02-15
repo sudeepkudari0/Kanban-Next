@@ -14,6 +14,8 @@ export async function GET(req: Request, res: Response){
                 id: true,
                 title: true,
                 description: true,
+                assignedToId: true,
+                userName: true,
                 priority: true,
                 duedate: true,
                 status: true

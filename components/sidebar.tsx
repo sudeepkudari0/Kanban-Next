@@ -1,5 +1,6 @@
 "use client";
 
+
 import { useEffect, useState } from 'react';
 import { FaTasks } from 'react-icons/fa';
 import { UserButton, currentUser } from '@clerk/nextjs';
@@ -7,6 +8,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { fetchAllUsers } from './features/users/userSlice';
 import { AppDispatch, RootState } from './store/store';
 import { stateType } from '@/types';
+import { SignOutButton } from "@clerk/nextjs"
 
 const MobileSidebar = ({users}: any) => {
   return (
